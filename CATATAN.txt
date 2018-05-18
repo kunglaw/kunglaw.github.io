@@ -1,0 +1,79 @@
+Website Layer : 
+
+- Front End : 
+- Back End
+
+- Document Layer : HTML 
+- Presentation Layer : CSS
+
+- Client Side Scripting : Javascript, Jquery
+- Server Side Scripting : PHP, NodeJS
+
+Isitlah HTML dan CSS: 
+- Tag / Element 
+- Attribute 
+- Event
+- Value 
+- Parent
+- Child 
+- class : perbedaan antara class dengan ID
+- id 
+
+- HTML 
+   - double tag
+     - HTML
+     - head
+     - body
+     - nav
+     - header 
+     - section
+     - footer
+     - ul 
+     - li 
+     - 
+
+   - single tag
+     - meta : berisi informasi tentang halaman / document html 
+     - img 
+     - hr 
+     - 
+   
+   - form 
+     - input 
+     - submit
+     - button
+
+- CSS 
+  - margin 
+    - top 
+    - right 
+    - buttom 
+    - left 
+  - padding 
+    - top 
+    - right 
+    - buttom
+    - left 
+  - height 
+  - width 
+  - font
+    font-family
+    font-size 
+  - background 
+  - border
+    - size 
+    - top 
+    - left 
+    - right
+    - bottom
+  - float
+    - left 
+    - right
+  - Display 
+    - block 
+    - inline 
+    - table
+
+
+
+- 

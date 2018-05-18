@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /> <!-- memberikan keterangan kepada halaman document html -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Contact | Yudhistira.id - Your Inspirational Blog </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wrapper"> 
+       
+        <nav>
+            <div class='container'>
+                <div class='banner'> 
+                    <h2><a href=""> Yudhistira.id </a></h2>
+                </div>
+                <div id='menu'>
+                    <ul>
+                        <li> <a href="index.html"> Home </a></li>
+                        <li> <a href="about.html"> About </a> </li>
+                        <li> <a href="contact.html"> Contact </a>  </li>
+                    </ul>
+                </div>
+                <div class='clearfix'></div>
+            </div>
+        </nav>
+        
+        <section id="contact">
+            <div class='container'>
+                <h1 align="center"> Contact </h1>
+                <br>
+                <form method="post" action="" >
+                    <div class='form-group'>
+                        <label> Name </label><br>
+                        <input type='text' name='name' class='form-control'>
+                    </div>
+                    <div class='form-group'>
+                        <label> Email </label><br>
+                        <input type='email' name='email' class='form-control'>
+                    </div>
+                    <div class='form-group'>
+                        <label> Gender </label><br>
+                       
+                        <label for='male'>
+                            <input type='radio' name='gender' value='male' class=''> Male 
+                        </label>
+                        <label> &nbsp; </label>
+                        <label for='female'>
+                            <input type='radio' name='gender' value='female' class=''> Male
+                        </label>
+                    </div>
+                    <div class='form-group'>
+                        <label> Role </label><br>
+                        <select name='role' class='form-control'>
+                            <option> Admin </option>
+                            <option> Customer </option>
+                            <option> Contributor </option>
+                        </select>
+                    </div>
+                    
+                    <div class='form-group'>
+                        <label> Subject </label><br>
+                        <input type='text' name='subject' class='form-control'>
+                    </div>
+                    <div class='form-group'>
+                        <label> Message </label><br>
+                        <textarea rows="10" name='message' class='form-control'></textarea>
+                    </div>
+                    <button id='contact-submit'> Submit </button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p align="center"> Copyright &copy; 2018 </p>
+        </footer>
+    </div>
+</body>
+</html>
