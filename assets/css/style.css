@@ -126,6 +126,18 @@ header .container .center h3{
 #about .container{
     padding:20px;
 }
+
+#about p{
+    text-align: justify;
+}
+
+#about #vision{
+    margin-right: 5%;
+}
+
+#about #mision{
+
+}
 /*end about*/
 
 #contact .container{
